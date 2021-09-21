@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .content-area {
+    height: calc(100vh - theme('spacing.20'));
+  }
+}
