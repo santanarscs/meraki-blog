@@ -2,7 +2,7 @@ import { MenuIcon } from '@heroicons/react/solid'
 function Header() {
   return (
     <div className="flex w-full h-20 shadow-md z-10">
-      <header className="flex justify-between items-center px-3 sm:px-8 w-full z-10">
+      <header className="content flex justify-between items-center px-3 sm:px-8 z-10">
         <div className="relative w-52">
           <div className="absolute -top-5">
             <img className="h-20 sm:h-40" src="/images/Logo.svg" alt="Meraki terapia"/>

@@ -6,4 +6,7 @@
   .content-area {
     height: calc(100vh - theme('spacing.20'));
   }
+  .content {
+    @apply w-full max-w-7xl m-auto
+  }
 }
