@@ -8,18 +8,18 @@ export default function Home() {
       </Head>
       <Header />
       
-      <section className="bg-gray-200 ">
+      <section id="home" className="bg-gray-200 ">
         <div className="content content-area flex items-center justify-between px-3 sm:px-8 text-gray-800">
-          <div className="flex flex-col items-end">
-            <h1 className="text-3xl sm:text-4xl tracking-wide font-semibold sm:mb-2">Oi, eu sou Ana Caroline</h1>
+          <div className="flex flex-col items-center m-auto lg:m-0 lg:items-end">
+            <h1 className="text-3xl text-center sm:text-4xl tracking-wide font-semibold sm:mb-2">Oi, eu sou Ana Caroline</h1>
             <span className="text-brand font-medium text-xl sm:text-2xl mb-4">Auriculoterapia e bem estar</span>
             <button className="bg-brand p-3 sm:p-4 rounded-full text-white uppercase tracking-wide w-36 font-medium hover:bg-brand-dark transition-colors">Saiba mais</button>
           </div>
-          <img src="/images/Carol.png" alt="Ana Caroline Santana"/>
+          <img className="hidden lg:block lg:h-full lg:p-4" src="/images/Carol.png" alt="Ana Caroline Santana"/>
         </div>
       </section>
 
-      <section className="py-4 sm:py-14 bg-white px-3 sm:px-8 text-gray-800 ">
+      <section id="services" className="py-4 sm:py-14 bg-white px-3 sm:px-8 text-gray-800 ">
         <div className="content flex items-center flex-col">
           <h1 className="text-2xl sm:text-4xl uppercase tracking-wider font-medium pb-2 border-b-2 border-brand">Serviços</h1>
           <ul className="grid grid-cols-1 gap-4 sm:grid-cols-3 mt-3 sm:mt-6">
@@ -51,7 +51,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-4 sm:py-14 bg-gray-200 px-3 sm:px-8 w-full text-gray-800 ">
+      <section id="about" className="py-4 sm:py-14 bg-gray-200 px-3 sm:px-8 w-full text-gray-800 ">
         <div className="content flex items-center flex-col">
           <h1 className="text-2xl sm:text-4xl uppercase tracking-wider font-medium pb-2 border-b-2 border-brand">Meus Clientes</h1>
           <ul className="my-5 sm:my-10 w-full">
@@ -76,7 +76,7 @@ export default function Home() {
         </div>
       </section>
       
-      <section className="py-4 sm:py-14 bg-gray-200 px-3 sm:px-8 w-full text-gray-800">
+      <section id="contact" className="py-4 sm:py-14 bg-gray-200 px-3 sm:px-8 w-full text-gray-800">
         <div className="content flex items-center flex-col">
           <h1 className="text-2xl sm:text-4xl uppercase tracking-wider font-medium pb-2 border-b-2 border-brand">Contato</h1>
           <div className="flex flex-col sm:flex-row mt-6">
@@ -108,8 +108,8 @@ export default function Home() {
         </div>
       </section>
       
-      <footer className="bg-brand text-white">
-        <div className="content flex flex-col sm:flex-row py-4 sm:py-14 px-3 sm:px-0 w-full justify-between">
+      <footer className="bg-brand text-white px-3">
+        <div className="content flex flex-col sm:flex-row py-4 sm:py-14 sm:px-0 w-full justify-between">
           <div className="flex items-center">
             <img className="w-28" src="/images/logo-white.svg" alt="Meraki terapia" />
             <p className="w-52 text-xl ml-8 tracking-wide">Medicina alternativa para seu bem estar</p>
