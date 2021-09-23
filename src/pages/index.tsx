@@ -8,6 +8,9 @@ export default function Home() {
     <div>
       <Head>
         <title>Meraki Terapia</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="Description" content="Mekari terapia, Terapia Rio das ostras, ventosa, Auriculoterapia"></meta>
+        <meta name="robots" content="noindex,nofollow"></meta>
       </Head>
       <Header />
       
