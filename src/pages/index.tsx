@@ -96,7 +96,7 @@ export default function Home() {
         </div>
       </section>
       
-      <footer className="bg-brand text-white px-3">
+      <footer className="bg-brand text-white px-3 sm:px-8">
         <div className="content flex flex-col sm:flex-row py-4 sm:py-14 sm:px-0 w-full justify-between">
           <div className="flex items-center">
             <img className="w-28" src="/images/logo-white.svg" alt="Meraki terapia" />
