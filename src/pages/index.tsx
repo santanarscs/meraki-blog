@@ -10,7 +10,7 @@ export default function Home() {
       </Head>
       <Header />
       
-      <section id="home" className="bg-gray-200 ">
+      <section id="home" className="bg-gray-200 mt-20">
         <div className="content content-area flex items-center justify-between px-3 sm:px-8 text-gray-800">
           <div className="flex flex-none flex-col items-center m-auto lg:m-0 lg:items-end">
             <h1 className="text-3xl text-center sm:text-4xl tracking-wide font-semibold sm:mb-2">Oi, eu sou Ana Caroline</h1>

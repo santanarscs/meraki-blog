@@ -1,12 +1,32 @@
 import Link from 'next/link'
 import { MenuIcon } from '@heroicons/react/solid'
+import { useEffect, useState } from 'react'
 function Header() {
+  const [scrolled, setScrolled] = useState(false)
+
+  useEffect(() => {
+    window.onscroll = () => {
+      if (window.scrollY > 50) {
+        setScrolled(true)
+      } else {
+        setScrolled(false)
+      }
+    }
+  }, [])
   return (
-    <div className="flex w-full h-20 shadow-md z-10">
-      <header className="content flex justify-between items-center px-3 sm:px-8 z-10">
+    <div className={
+      `flex w-full z-10 fixed top-0 transition-colors
+        ${scrolled ? 'bg-white shadow-md h-16' : 'bg-gray-200 h-20'}
+      `
+    }>
+      <header className="content flex justify-between items-center px-3 sm:px-8 ">
         <div className="relative w-52">
           <div className="absolute -top-5">
-            <img className="h-20 sm:h-28 md:h-40" src="/images/Logo.svg" alt="Meraki terapia"/>
+            {scrolled
+              ? <img className="h-11" src="/images/lotus.svg" alt="Meraki terapia" />
+              : <img className="h-20 sm:h-28 md:h-40" src="/images/Logo.svg" alt="Meraki terapia" />
+            }
+            
           </div>
         </div>
         <nav className="hidden sm:block justify-self-end">
