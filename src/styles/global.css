@@ -5,6 +5,7 @@
 @layer components {
   .content-area {
     height: calc(100vh - theme('spacing.20'));
+    max-height: 900px
   }
   .content {
     @apply w-full max-w-7xl m-auto

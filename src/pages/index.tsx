@@ -1,5 +1,7 @@
-import { Header } from '../components/Header'
+import Link from 'next/link'
 import Head from 'next/head'
+import { Header } from '../components/Header'
+
 export default function Home() {
   return (
     <div>
@@ -10,19 +12,19 @@ export default function Home() {
       
       <section id="home" className="bg-gray-200 ">
         <div className="content content-area flex items-center justify-between px-3 sm:px-8 text-gray-800">
-          <div className="flex flex-col items-center m-auto lg:m-0 lg:items-end">
+          <div className="flex flex-none flex-col items-center m-auto lg:m-0 lg:items-end">
             <h1 className="text-3xl text-center sm:text-4xl tracking-wide font-semibold sm:mb-2">Oi, eu sou Ana Caroline</h1>
             <span className="text-brand font-medium text-xl sm:text-2xl mb-4">Auriculoterapia e bem estar</span>
             <button className="bg-brand p-3 sm:p-4 rounded-full text-white uppercase tracking-wide w-36 font-medium hover:bg-brand-dark transition-colors">Saiba mais</button>
           </div>
-          <img className="hidden lg:block lg:h-full lg:p-4" src="/images/Carol.png" alt="Ana Caroline Santana"/>
+          <img className="hidden flex-shrink-0 lg:block  lg:p-4 lg:w-auto" src="/images/Carol.png" alt="Ana Caroline Santana"/>
         </div>
       </section>
 
       <section id="services" className="py-4 sm:py-14 bg-white px-3 sm:px-8 text-gray-800 ">
         <div className="content flex items-center flex-col">
           <h1 className="text-2xl sm:text-4xl uppercase tracking-wider font-medium pb-2 border-b-2 border-brand">Serviços</h1>
-          <ul className="grid grid-cols-1 gap-4 sm:grid-cols-3 mt-3 sm:mt-6">
+          <ul className="grid grid-cols-1 gap-4 mt-3 md:grid-cols-2 lg:grid-cols-3 lg:mt-6 ">
             <li className="rounded-lg shadow-md overflow-hidden bg-white">
               <img className="h-52 sm:h-80 w-full object-cover" src="/images/aurico.jpeg" alt="Auriculoterapia" />
               <div className="p-4 flex flex-col">
@@ -116,18 +118,34 @@ export default function Home() {
           </div>
           <div className="w-full sm:w-1/3 mt-4 sm:mt-0 self-end">
             <h2 className="text-xl font-bold tracking-wide">Redes sociais</h2>
-            <ul className="flex space-x-3 sm:space-x-6 mt-4">
-              <li>
-                <img className="h-8 sm:h-16" src="/images/twitter.svg" alt="twitter"/>
+            <ul className="flex space-x-3 sm:space-x-3 mt-4">
+              <li className="hover:bg-brand-dark p-2 rounded-md transition-colors">
+                <Link  href="https://www.instagram.com/caroline_sant/?hl=pt-br" >
+                  <a className="h-5 w-5 sm:h-10 sm:w-10" target="_blank">
+                    <img src="/images/twitter.svg" alt="twitter" />
+                  </a>
+                </Link>
               </li>
-              <li>
-                <img className="h-8 sm:h-16" src="/images/instagram.svg" alt="instagram"/>
+              <li className="hover:bg-brand-dark p-2 rounded-md transition-colors">
+                <Link  href="https://www.instagram.com/caroline_sant/?hl=pt-br" >
+                  <a className="h-5 w-5 sm:h-10 sm:w-10" target="_blank">
+                    <img src="/images/instagram.svg" alt="instagram" />
+                  </a>
+                </Link>
               </li>
-              <li>
-                <img className="h-8 sm:h-16" src="/images/facebook.svg" alt="facebook"/>
+              <li className="hover:bg-brand-dark p-2 rounded-md transition-colors">
+                <Link  href="https://www.facebook.com/auriculoriodasostras" >
+                  <a className="h-5 w-5 sm:h-10 sm:w-10" target="_blank">
+                    <img src="/images/facebook.svg" alt="facebook" />
+                  </a>
+                </Link>
               </li>
-              <li>
-                <img className="h-8 sm:h-16" src="/images/linkedin.svg" alt="linkedin"/>
+              <li className="hover:bg-brand-dark p-2 rounded-md transition-colors">
+                <Link  href="https://www.linkedin.com/in/ana-caroline-santana-21ba8b97/" >
+                  <a className="h-5 w-5 sm:h-10 sm:w-10" target="_blank">
+                    <img src="/images/linkedin.svg" alt="linkedin" />
+                  </a>
+                </Link>
               </li>
             </ul>
           </div>
