@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Head from 'next/head'
 import { Header } from '../components/Header'
+import { ContactForm } from '../components/ContactForm'
 
 export default function Home() {
   return (
@@ -82,25 +83,7 @@ export default function Home() {
         <div className="content flex items-center flex-col">
           <h1 className="text-2xl sm:text-4xl uppercase tracking-wider font-medium pb-2 border-b-2 border-brand">Contato</h1>
           <div className="flex flex-col sm:flex-row mt-6">
-            <form className="w-full sm:w-2/3">
-              <div className="flex flex-col mb-2">
-                <label htmlFor="" className="mb-1">Nome</label>
-                <input className="p-2 border border-gray-400 rounded-lg" type="text" placeholder="Seu nome"/> 
-              </div>
-              <div className="flex flex-col mb-2">
-                <label htmlFor="">E-mail</label>
-                <input className="p-2 border border-gray-400 rounded-lg" type="email" placeholder="Seu melhor e-mail"/> 
-              </div>
-              <div className="flex flex-col mb-2">
-                <label htmlFor="">Telefone <span className="text-gray-400 text-sm">(opcional)</span></label>
-                <input className="p-2 border border-gray-400 rounded-lg" type="text" placeholder="(XX) XXXXX-XXXX"/> 
-              </div>
-              <div className="flex flex-col mb-2">
-                <label htmlFor="">Mensagem</label>
-                <textarea className="p-2 border border-gray-400 rounded-lg" name="" id="" cols={30} rows={10} placeholder="Sua mensagem"></textarea>
-              </div>
-              <button className="bg-brand text-white rounded-full w-full sm:w-32 px-4 py-2 uppercase">enviar</button>
-            </form>
+            <ContactForm />
             <div className="flex flex-col mt-6 sm:mt-0 sm:ml-4">
               <img src="/images/MAPA.png" alt="Localização" />
               <p className="sm:self-end text-gray-700 mt-3">R. Acerbal Pinto Malheiros, 82A - Mariléa Chácara, Rio das Ostras</p>
