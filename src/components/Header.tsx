@@ -10,7 +10,7 @@ function Header() {
 
   useEffect(() => {
     window.addEventListener('scroll', () => {
-      setScrollActive(window.scroll > 20);
+      setScrollActive(window.scrollY > 20);
     })
   },[])
 
