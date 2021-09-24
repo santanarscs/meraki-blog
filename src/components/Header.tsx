@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import { MenuIcon } from '@heroicons/react/solid'
 import { useEffect, useState } from 'react'
 import { Link as LinkScroll } from 'react-scroll'
@@ -40,7 +39,7 @@ function Header() {
             
           </div>
         </div>
-        <nav className="hidden sm:block justify-self-end">
+        <nav className="hidden lg:block justify-self-end">
           <ul className="flex uppercase font-semibold tracking-wide text-gray-800">
           <LinkScroll
               activeClass="active"
@@ -114,35 +113,14 @@ function Header() {
             >
               Contato
             </LinkScroll>
-            {/* <li>
-              <Link href="#home">
-                <a>Home</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="#services">
-                <a>Serviços</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="#about">
-                <a>Sobre mim</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="#contact">
-                <a>Contato</a>
-              </Link>
-            </li> */}
           </ul>
         </nav>
-        <button className="sm:hidden">
+        <button className="lg:hidden">
           <MenuIcon className="h-10 w-10 text-gray-700" />
         </button>
       </header>
     </div>
   )
  }
-
 
 export { Header }
