@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 import { Header } from '../components/Header'
 import { ContactForm } from '../components/ContactForm'
+import { Testimony } from '../components/Testimony'
 
 export default function Home() {
   return (
@@ -57,19 +58,9 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="about" className="py-4 sm:py-14 bg-gray-200 px-3 sm:px-8 w-full text-gray-800 ">
-        <div className="content flex items-center flex-col">
-          <h1 className="text-2xl sm:text-4xl uppercase tracking-wider font-medium pb-2 border-b-2 border-brand">Meus Clientes</h1>
-          <ul className="my-5 sm:my-10 w-full">
-            <li className="flex items-center justify-center">
-              <img className="rounded-full h-24 w-24 mr-4" src="/images/ivan.jpeg" alt="Ivan" />
-              <p className="text-gray-600 italic text-base w-2/3 line">“Após receber instruções no programa de coach child education meus filhos se tornaram dois dinossauros, o mais velho é o Dimitrisauro e o mais novo é o Icarosauro-san”</p>
-            </li>
-          </ul>
-        </div>
-      </section>
+      <Testimony />
 
-      <section className="py-4 sm:py-14 bg-white px-3 sm:px-8 w-full text-gray-800 ">
+      <section id="about" className="py-4 sm:py-14 bg-white px-3 sm:px-8 w-full text-gray-800 ">
         <div className="content flex items-center flex-col">
           <h1 className="text-2xl sm:text-4xl uppercase tracking-wider font-medium pb-2 border-b-2 border-brand">Sobre mim</h1>
           <div className="flex flex-col items-center sm:items-start sm:flex-row sm:justify-between mt-6">
@@ -99,7 +90,7 @@ export default function Home() {
       <footer className="bg-brand text-white px-3 sm:px-8">
         <div className="content flex flex-col sm:flex-row py-4 sm:py-14 sm:px-0 w-full justify-between">
           <div className="flex items-center">
-            <img className="w-28" src="/images/logo-white.svg" alt="Meraki terapia" />
+            <img className=" h-20 lg:h-24" src="/images/logo-white.svg" alt="Meraki terapia" />
             <p className="w-52 text-xl ml-8 tracking-wide">Medicina alternativa para seu bem estar</p>
           </div>
           <div className="w-full sm:w-1/3 mt-4 sm:mt-0 self-end">
