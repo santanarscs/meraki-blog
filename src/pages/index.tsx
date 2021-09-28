@@ -8,10 +8,13 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Meraki Terapia</title>
+        <title>Meraki Terapia | Especialista em auriculoterapia e ventosa de Rio das Ostras</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta name="Description" content="Mekari terapia, Terapia Rio das ostras, ventosa, Auriculoterapia"></meta>
-        <meta name="robots" content="noindex,nofollow"></meta>
+        <link rel="search" type="application/opensearchdescription+xml" title="www.merakiterapia.com.br" href="https://www.merakiterapia.com.br"></link>
+        <meta name="description" content="Melhor especialista em Auriculoterapia de Rio Das Ostras."/>
+        <meta name="description" content="Melhor especialista em ventosa de Rio Das Ostras."/>
+        <meta name="description" content="Mekari terapia, Terapia Rio das ostras, ventosa, Auriculoterapia"></meta>
+        <meta name="robots" content="index,follow"></meta>
       </Head>
       <Header />
       
