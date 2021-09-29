@@ -11,9 +11,8 @@ export default function Home() {
         <title>Meraki Terapia | Especialista em auriculoterapia e ventosa de Rio das Ostras</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link rel="search" type="application/opensearchdescription+xml" title="www.merakiterapia.com.br" href="https://www.merakiterapia.com.br"></link>
-        <meta name="description" content="Melhor especialista em Auriculoterapia de Rio Das Ostras."/>
+        <meta name="description" content="Melhor especialista em Auriculoterapia de Rio Das Ostras e ventosa."/>
         <meta name="description" content="Melhor especialista em ventosa de Rio Das Ostras."/>
-        <meta name="description" content="Mekari terapia, Terapia Rio das ostras, ventosa, Auriculoterapia"></meta>
         <meta name="robots" content="index,follow"></meta>
       </Head>
       <Header />
