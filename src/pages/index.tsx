@@ -11,8 +11,7 @@ export default function Home() {
         <title>Meraki Terapia | Especialista em auriculoterapia e ventosa de Rio das Ostras</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link rel="search" type="application/opensearchdescription+xml" title="www.merakiterapia.com.br" href="https://www.merakiterapia.com.br"></link>
-        <meta name="description" content="Melhor especialista em Auriculoterapia de Rio Das Ostras e ventosa."/>
-        <meta name="description" content="Melhor especialista em ventosa de Rio Das Ostras."/>
+        <meta name="description" content="Melhor especialista em Auriculoterapia de Rio Das Ostras e ventosa. Melhor especialista em ventosa de Rio Das Ostras."/>
         <meta name="robots" content="index,follow"></meta>
       </Head>
       <Header />
@@ -36,7 +35,7 @@ export default function Home() {
               <img className="h-52 sm:h-80 w-full object-cover" src="/images/aurico.jpeg" alt="Auriculoterapia" />
               <div className="p-4 flex flex-col">
                 <h2 className="text-xl mb-2 tracking-wide">Auriculoterapia</h2>
-                <span className="text-gray-500 text-sm leading-relaxed">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum </span>
+                <span className="text-gray-500 text-sm leading-relaxed">Auriculoterapia ou (acupuntura auricular) é uma terapia totalmente natural, proveniente da Medicina Tradicional Chinesa.</span>
                 <button className="w-32 border border-brand rounded-full text-brand px-4 py-2 mt-2 text-sm hover:bg-brand hover:text-white transition-colors">Leia mais...</button>
               </div>
             </li>
@@ -44,7 +43,7 @@ export default function Home() {
               <img className="h-52 sm:h-80 w-full object-cover" src="/images/ventosa.jpeg" alt="Ventosa terapia" />
               <div className="p-4 flex flex-col">
                 <h2 className="text-xl mb-2 tracking-wide">Ventosa</h2>
-                <span className="text-gray-500 text-sm leading-relaxed">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum </span>
+                <span className="text-gray-500 text-sm leading-relaxed">Tipo de tratamento natural no qual são usadas ventosas para melhorar a circulação sanguínea em um local do corpo. </span>
                 <button className="w-32 border border-brand rounded-full text-brand px-4 py-2 mt-2 text-sm hover:bg-brand hover:text-white transition-colors">Leia mais...</button>
               </div>
             </li>
@@ -68,8 +67,11 @@ export default function Home() {
           <div className="flex flex-col items-center sm:items-start sm:flex-row sm:justify-between mt-6">
             <img className="border-4 border-brand w-1/3 mb-4 sm:mb-0" src="/images/Carol.jpeg" alt="Carol Santana"/>
             <div className="sm:ml-4 flex-1 text-gray-600 space-y-6">
-              <p className="leading-relaxed text-lg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-              <p className="leading-relaxed text-lg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+              <p className="leading-relaxed text-lg">Após finalizar o bacharel em Direito e atuar brevemente na área sentia que não conseguia ofertar o melhor de mim com tanta burocracia.
+ Eu tinha um propósito mas não sabia como e nem por onde começar desenvolve –lo. Sentia a necessidade de proporcionar cuidados e bem estar às pessoas, guiá-las num caminho onde pudessem agregar na vida de outros também!</p>
+              <p className="leading-relaxed text-lg">A auriculoterapia foi o primeiro passo para isso. Com ela aprendi a cuidar das dores físicas psíquicas e emocionais. Aprendi o quanto nosso corpo pode ser tão frágil e ao mesmo tempo uma maquina tão perfeita e poderosa.
+Quase que no mesmo momento também tive a oportunidade de me desenvolver como Coach. E foi um desabrochar incrível!</p>
+              <p className="leading-relaxed text-lg">Com esse entusiasmo nasceu o espaço Meraki que como o próprio nome já se traduz é o lugar onde posso ofertar minhas técnicas com a alma, onde busco tratar e transformar e entregar um pouco de mim.</p>
             </div>
           </div>
         </div>

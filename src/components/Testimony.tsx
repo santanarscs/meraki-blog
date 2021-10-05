@@ -5,40 +5,40 @@ import { ArrowLeftIcon as ArrowBack, ArrowRightIcon as ArrowNext, StarIcon as St
 
 const listData = [
   {
-    name: "Ivan",
+    name: "Ivan Camargo",
     image: "/images/ivan.jpeg",
     city: "Rio das Ostras",
     country: "RJ",
     rating: "5.0",
     testimony:
-      "Após receber instruções no programa de coach child education meus filhos se tornaram dois dinossauros, o mais velho é o Dimitrisauro e o mais novo é o Icarosauro-san",
+      "Vale muito, me ajudou com minha tdah, e ansiedade.",
   },
   {
-    name: "Ivan",
-    image: "/images/ivan.jpeg",
-    city: "Rio das Ostras",
+    name: "Ana Maria Santana",
+    image: "/images/ana.png",
+    city: "Unamar",
     country: "RJ",
     rating: "5.0",
     testimony:
-      "Após receber instruções no programa de coach child education meus filhos se tornaram dois dinossauros, o mais velho é o Dimitrisauro e o mais novo é o Icarosauro-san",
+      "Muito atenciosa, realmente funciona, vale apena conferir esse tratamento, comigo funciona super bem.",
   },
   {
-    name: "Ivan",
-    image: "/images/ivan.jpeg",
+    name: "Edson Felix",
+    image: "/images/edson.png",
     city: "Rio das Ostras",
     country: "RJ",
     rating: "5.0",
     testimony:
-      "Após receber instruções no programa de coach child education meus filhos se tornaram dois dinossauros, o mais velho é o Dimitrisauro e o mais novo é o Icarosauro-san",
+      "Ótimo atendimendo, excelente terapeuta, tive um excelente resultado no meu tratamento. Recomendo.",
   },
   {
-    name: "Ivan",
-    image: "/images/ivan.jpeg",
+    name: "Fabiano Guedes",
+    image: "/images/fabiano.png",
     city: "Rio das Ostras",
     country: "RJ",
     rating: "5.0",
     testimony:
-      "Após receber instruções no programa de coach child education meus filhos se tornaram dois dinossauros, o mais velho é o Dimitrisauro e o mais novo é o Icarosauro-san",
+      "Muito antesiosa, estou adorando o tratamento.",
   },
 ]
 
@@ -99,6 +99,7 @@ function Testimony() {
                       height={50}
                       width={50}
                       alt={item.name}
+                      className="rounded-full"
                     />
                     <div className="flex flex-col ml-5 text-left">
                       <p className="text-lg text-gray-800 capitalize">
