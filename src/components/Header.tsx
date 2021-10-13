@@ -62,6 +62,7 @@ function Header() {
                     <ul className="flex uppercase font-semibold tracking-wide text-gray-800">
                       {navigation.map((item) => (
                         <LinkScroll
+                          key={item.value}
                           activeClass="active"
                           to={item.value}
                           spy={true}

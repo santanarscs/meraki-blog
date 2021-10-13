@@ -85,7 +85,7 @@ Quase que no mesmo momento também tive a oportunidade de me desenvolver como Co
             <div className="flex flex-col mt-6 sm:mt-0 sm:ml-4">
               <img src="/images/MAPA.png" alt="Localização" />
               <p className="sm:self-end text-gray-700 mt-3">R. Acerbal Pinto Malheiros, 82A - Mariléa Chácara, Rio das Ostras</p>
-              <p className="sm:self-end text-gray-700">Telefone: (22) 98324-2230</p>
+              <p className="sm:self-end text-gray-700">Telefone: (22) 99736-8802</p>
             </div>
           </div>
         </div>
@@ -95,7 +95,7 @@ Quase que no mesmo momento também tive a oportunidade de me desenvolver como Co
         <div className="content flex flex-col sm:flex-row py-4 sm:py-14 sm:px-0 w-full justify-between">
           <div className="flex items-center">
             <img className=" h-20 lg:h-24" src="/images/logo-white.svg" alt="Meraki terapia" />
-            <p className="w-52 text-xl ml-8 tracking-wide">Medicina alternativa para seu bem estar</p>
+            <p className="w-52 text-xl ml-8 tracking-wide">Medicina integrativa para seu bem estar</p>
           </div>
           <div className="w-full sm:w-1/3 mt-4 sm:mt-0 self-end">
             <h2 className="text-xl font-bold tracking-wide">Redes sociais</h2>
