@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import Head from 'next/head'
+import { NextSeo } from 'next-seo'
 import { Header } from '../components/Header'
 import { ContactForm } from '../components/ContactForm'
 import { Testimony } from '../components/Testimony'
@@ -7,15 +7,12 @@ import { Testimony } from '../components/Testimony'
 export default function Home() {
   return (
     <div>
-      <Head>
-        <title>Meraki Terapia | Especialista em auriculoterapia e ventosa de Rio das Ostras</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <link rel="search" type="application/opensearchdescription+xml" title="www.merakiterapia.com.br" href="https://www.merakiterapia.com.br"></link>
-        <meta name="description" content="Melhor especialista em Auriculoterapia de Rio Das Ostras e ventosa. Melhor especialista em ventosa de Rio Das Ostras."/>
-        <meta name="robots" content="index,follow"></meta>
-      </Head>
-      <Header />
-      
+
+      <NextSeo 
+        title="Meraki Terapia | Especialista em auriculoterapia e ventosa de Rio das Ostras"
+        description="Melhor especialista em Auriculoterapia de Rio Das Ostras e ventosa. Melhor especialista em ventosa de Rio Das Ostras."
+        canonical="http://www.merakiterapia.com.br"
+      />
       <section id="home" className="bg-gray-200 mt-20">
         <div className="content content-area flex items-center justify-between px-3 sm:px-8 text-gray-800">
           <div className="flex flex-none flex-col items-center m-auto lg:m-0 lg:items-end">
